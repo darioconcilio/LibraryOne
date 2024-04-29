@@ -16,5 +16,15 @@ tableextension 50100 "Sales Header Ext." extends "Sales Header"
             Caption = 'Operational Due Date';
             DataClassification = ToBeClassified;
         }
+        /*modify(Status)
+        {
+            trigger OnAfterValidate()
+            var
+                CalculationTxt: Label '<1M>', Locked = true;
+            begin
+                if Rec.Status = Enum::"Sales Document Status"::Released then
+                    Rec."Operational Due Date" := CalcDate(CalculationTxt, Today);
+            end;
+        }*/
     }
 }

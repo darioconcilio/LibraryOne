@@ -1,0 +1,5 @@
+1) Trigger event (OnBefore) (OnBeforeDeleteEvent)
+2) Table Trigger (OnDelete)
+3) Global table trigger in codeunit (cdu 49 GlobalTriggerManagement -> OnDatabaseDelete)
+4) Database operations (Delete a record)
+5) Trigger event (OnAfter) (OnAfterDeleteEvent)
