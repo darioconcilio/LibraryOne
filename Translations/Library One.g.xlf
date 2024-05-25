@@ -803,6 +803,96 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page Temporary Test Data Entry - Control Title - Property ToolTip</note>
         </trans-unit>
+        <trans-unit id="Codeunit 3618972584 - NamedType 4046991775" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Operation occurred successfully!\Item found %1 %2</source>
+          <note from="Developer" annotates="general" priority="2">%1 = Item No., %2 = Item Description</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Error Handling Examples - NamedType OperationSuccessfullyMsg</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 3618972584 - Method 757461967 - NamedType 64394730" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Error!\%1\Please contact partner support.</source>
+          <note from="Developer" annotates="general" priority="2">%1 = Original error message</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Error Handling Examples - Method GetDescriptionItem - NamedType SomethingWentWrongErr</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 3618972584 - Method 757461967 - NamedType 2200487216" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Item not exists</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Error Handling Examples - Method GetDescriptionItem - NamedType ItemNoExistsTxt</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 3618972584 - Method 757461967 - NamedType 1928664369" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Item No. %1 not exists in this archive.</source>
+          <note from="Developer" annotates="general" priority="2">%1 = Item No. to search</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Error Handling Examples - Method GetDescriptionItem - NamedType ThisItemNotExistsMsg</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 3618972584 - Method 757461967 - NamedType 3331755814" size-unit="char" translate="yes" xml:space="preserve">
+          <source>In order to retrieve this article, you must open the article list and press New, which will allow you to create the article and later use it.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Error Handling Examples - Method GetDescriptionItem - NamedType SeggestedActionMsg</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 3618972584 - Method 572419804 - NamedType 64394730" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Error!\%1\Please contact partner support.</source>
+          <note from="Developer" annotates="general" priority="2">%1 = Original error message</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Error Handling Examples - Method GetDescriptionItemWithTry - NamedType SomethingWentWrongErr</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 3618972584 - Method 3865309947 - NamedType 2200487216" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Item not exists</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Error Handling Examples - Method GetItemDescriptionWithAction - NamedType ItemNoExistsTxt</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 3618972584 - Method 3865309947 - NamedType 3612905603" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Item not complete</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Error Handling Examples - Method GetItemDescriptionWithAction - NamedType ItemNotCompleteTxt</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 3618972584 - Method 3865309947 - NamedType 1928664369" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Item No. %1 not exists in this archive.</source>
+          <note from="Developer" annotates="general" priority="2">%1 = Item No. to search</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Error Handling Examples - Method GetItemDescriptionWithAction - NamedType ThisItemNotExistsMsg</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 3618972584 - Method 3865309947 - NamedType 3963010294" size-unit="char" translate="yes" xml:space="preserve">
+          <source>In order to retrieve this aritcle, you must open the article list and press New, which will allow you to create the article and later use it.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Error Handling Examples - Method GetItemDescriptionWithAction - NamedType SuggestedActionMsg</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 3618972584 - Method 3865309947 - NamedType 2962119072" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Item %1 not completed, you have to complete its description</source>
+          <note from="Developer" annotates="general" priority="2">%1 = Item No. to complete</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Error Handling Examples - Method GetItemDescriptionWithAction - NamedType ItemNotCompletedMsg</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 3618972584 - Method 3865309947 - NamedType 3860430445" size-unit="char" translate="yes" xml:space="preserve">
+          <source>You can open Item Card and set description</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Error Handling Examples - Method GetItemDescriptionWithAction - NamedType SuggestedActionCompleteMsg</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 1835581810 - Method 1297245129 - NamedType 137853743" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Descr.: %1</source>
+          <note from="Developer" annotates="general" priority="2">%1 = Default decription</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Fake Library - Method SetDefaultDescription - NamedType DefaultDescriptionTxt</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 1835581810 - Method 1297245129 - NamedType 2184892397" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Item %1 not found</source>
+          <note from="Developer" annotates="general" priority="2">%1 = RecordId that not found</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Fake Library - Method SetDefaultDescription - NamedType ItemNotFoundErr</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 1835581810 - Method 2455711927 - NamedType 137853743" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Descr.: %1</source>
+          <note from="Developer" annotates="general" priority="2">%1 = Default decription</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Fake Library - Method SetDefaultDescription2 - NamedType DefaultDescriptionTxt</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 1835581810 - Method 2455711927 - NamedType 2184892397" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Item %1 not found</source>
+          <note from="Developer" annotates="general" priority="2">%1 = RecordId that not found</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Fake Library - Method SetDefaultDescription2 - NamedType ItemNotFoundErr</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 2281093101 - Method 2903944973 - NamedType 2184892397" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Item %1 not found</source>
+          <note from="Developer" annotates="general" priority="2">%1 = Item No.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Fake Library Collects - Method CheckItemDescription2WithAction - NamedType ItemNotFoundErr</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 2281093101 - Method 2903944973 - NamedType 2370208704" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Description 2 is empty</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Fake Library Collects - Method CheckItemDescription2WithAction - NamedType Description2EmptyErr</note>
+        </trans-unit>
         <trans-unit id="Report 3115327940 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Available Book List</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -852,6 +942,56 @@
           <source>Initial Filter</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Report Available Book List - Control InitialFilterRef - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 1512221076 - Action 2786833703 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 4178721393">
+          <source>Simulate an error keeping Error Collects</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension Item List Ext. - Action CollectErrors - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 1512221076 - Action 2786833703 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 4178721393">
+          <source>Simulate Collects</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension Item List Ext. - Action CollectErrors - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 1512221076 - Action 1849423245 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 4178721393">
+          <source>Simulate an error searching PIPPO item</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension Item List Ext. - Action SimulateErr - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 1512221076 - Action 1849423245 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 4178721393">
+          <source>Simulate error 1</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension Item List Ext. - Action SimulateErr - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 1512221076 - Action 3594951254 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 4178721393">
+          <source>Simulate an error searching PIPPO item</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension Item List Ext. - Action SimulateErrCurrent - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 1512221076 - Action 3594951254 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 4178721393">
+          <source>Simulate error 2</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension Item List Ext. - Action SimulateErrCurrent - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 1512221076 - Action 3416726018 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 4178721393">
+          <source>Simulate an error searching current item with action</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension Item List Ext. - Action SimulateErrCurrentWithAction - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 1512221076 - Action 3416726018 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 4178721393">
+          <source>Simulate error 3</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension Item List Ext. - Action SimulateErrCurrentWithAction - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 1512221076 - Action 3960612162 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 4178721393">
+          <source>Simulate an error keeping TryFunction</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension Item List Ext. - Action SimulateErrTryFunction - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 1512221076 - Action 3960612162 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 4178721393">
+          <source>Simulate TryFunction</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension Item List Ext. - Action SimulateErrTryFunction - Property Caption</note>
         </trans-unit>
         <trans-unit id="PageExtension 3031093451 - Control 252873239 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 1673401186">
           <source>Operational arrangements</source>
