@@ -883,15 +883,20 @@
           <note from="Developer" annotates="general" priority="2">%1 = RecordId that not found</note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit Fake Library - Method SetDefaultDescription2 - NamedType ItemNotFoundErr</note>
         </trans-unit>
-        <trans-unit id="Codeunit 2281093101 - Method 2903944973 - NamedType 2184892397" size-unit="char" translate="yes" xml:space="preserve">
+        <trans-unit id="Codeunit 1835581810 - Method 2278608696 - NamedType 2184892397" size-unit="char" translate="yes" xml:space="preserve">
           <source>Item %1 not found</source>
-          <note from="Developer" annotates="general" priority="2">%1 = Item No.</note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Fake Library Collects - Method CheckItemDescription2WithAction - NamedType ItemNotFoundErr</note>
+          <note from="Developer" annotates="general" priority="2">%1 = RecordId that not found</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Fake Library - Method SetDefaultVendorNo - NamedType ItemNotFoundErr</note>
         </trans-unit>
-        <trans-unit id="Codeunit 2281093101 - Method 2903944973 - NamedType 2370208704" size-unit="char" translate="yes" xml:space="preserve">
+        <trans-unit id="Codeunit 2281093101 - Method 4018220436 - NamedType 2370208704" size-unit="char" translate="yes" xml:space="preserve">
           <source>Description 2 is empty</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Fake Library Collects - Method CheckItemDescription2WithAction - NamedType Description2EmptyErr</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Fake Library Collects - Method GenerateMultipleErrors - NamedType Description2EmptyErr</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 2281093101 - Method 4018220436 - NamedType 3501674495" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Vendor No. is empty</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Fake Library Collects - Method GenerateMultipleErrors - NamedType VendorNoEmptyErr</note>
         </trans-unit>
         <trans-unit id="Report 3115327940 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Available Book List</source>

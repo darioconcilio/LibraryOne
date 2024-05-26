@@ -1,59 +1,68 @@
 namespace LibraryOne.LibraryOne;
 using Microsoft.Inventory.Item;
+using System.Utilities;
 
 codeunit 50108 "Fake Library Collects"
 {
+    TableNo = Item;
+
     trigger OnRun()
     begin
-        GenerateMultipleErrors();
+        GenerateMultipleErrors(Rec);
     end;
 
-    procedure GenerateMultipleErrors()
+
+    procedure GenerateMultipleErrors(var rItem: Record Item)
     var
-        ItemToSearch: Record Item;
-    begin
-        CheckItemDescription2WithAction('PIPPO');
-
-        if ItemToSearch.FindFirst() then
-            CheckItemDescription2WithAction(ItemToSearch."No.");
-
-        if ItemToSearch.FindLast() then
-            CheckItemDescription2WithAction(ItemToSearch."No.");
-    end;
-
-    local procedure CheckItemDescription2WithAction(ItemNo: Code[20])
-    var
-        ItemCheck: Record Item;
-        ItemNotFoundErr: Label 'Item %1 not found', Comment = '%1 = Item No.';
         Description2EmptyErr: Label 'Description 2 is empty';
-        ItemErrorInfo: ErrorInfo;
+        VendorNoEmptyErr: Label 'Vendor No. is empty';
+        UnitCostItemErrorInfo: ErrorInfo;
+        Description2ItemErrorInfo: ErrorInfo;
     begin
-        if ItemCheck.Get(ItemNo) then begin
-            if ItemCheck."Description 2" = '' then begin
+        if not Evaluate(rItem."Unit Cost", '2 euro') then begin
+            UnitCostItemErrorInfo := ErrorInfo.Create(GetLastErrorText(),
+                                    true,
+                                    rItem,
+                                    rItem.FieldNo("Unit Cost"));
+            Error(UnitCostItemErrorInfo);
+        end;
 
-                ItemErrorInfo := ErrorInfo.Create(Description2EmptyErr,
-                                        true,
-                                        ItemCheck,
-                                        ItemCheck.FieldNo("No."),
-                                        Page::"Item List",
-                                        'CheckItemDescription2WithAction');
+        if rItem."Description 2" = '' then begin
+
+            Description2ItemErrorInfo := ErrorInfo.Create(Description2EmptyErr,
+                                    true,
+                                    rItem,
+                                    rItem.FieldNo("Description 2"));
 
 
-                ItemErrorInfo.AddAction(
-                    'Set default description 2',
-                    Codeunit::"Fake Library",
-                    'SetDefaultDescription2'
-                );
-                ItemErrorInfo.AddNavigationAction('Show Details');
+            Description2ItemErrorInfo.AddAction(
+                'Set default description 2',
+                Codeunit::"Fake Library",
+                'SetDefaultDescription2'
+            );
+            Description2ItemErrorInfo.AddNavigationAction('Show Details');
 
-                Error(ItemErrorInfo);
-            end;
-        end else
-            Error(ErrorInfo.Create(StrSubstNo(ItemNotFoundErr, ItemNo),
-                                   true,
-                                   ItemCheck,
-                                   ItemCheck.FieldNo("No."),
-                                   Page::"Item List",
-                                   'CheckItemDescription2WithAction'));
+            Error(Description2ItemErrorInfo);
+        end;
+
+        if rItem."Vendor No." = '' then begin
+
+            Description2ItemErrorInfo := ErrorInfo.Create(VendorNoEmptyErr,
+                                    true,
+                                    rItem,
+                                    rItem.FieldNo("Vendor No."));
+
+
+            Description2ItemErrorInfo.AddAction(
+                'Set default Vendor No.',
+                Codeunit::"Fake Library",
+                'SetDefaultVendorNo'
+            );
+            Description2ItemErrorInfo.AddNavigationAction('Show Details');
+
+            Error(Description2ItemErrorInfo);
+        end;
+
     end;
+
 }

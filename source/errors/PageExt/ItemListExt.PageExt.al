@@ -122,26 +122,34 @@ pageextension 50101 "Item List Ext." extends "Item List"
 
     [ErrorBehavior(ErrorBehavior::Collect)]
     procedure GenerateMultipleErrors()
-    begin
-        Codeunit.Run(Codeunit::"Fake Library Collects");
-        ShowErrorsIfExists();
-    end;
-
-    local procedure ShowErrorsIfExists()
     var
-        TempErrorsMessage: Record "Error Message" temporary;
+        ItemToSearch: Record Item;
+        TempErrorMessage: Record "Error Message" temporary;
         CurrentErrorInfo: ErrorInfo;
     begin
 
-        if HasCollectedErrors then
-            foreach CurrentErrorInfo in system.GetCollectedErrors() do begin
-                TempErrorsMessage.ID := TempErrorsMessage.ID + 1;
-                TempErrorsMessage.Message := CurrentErrorInfo.Message;
-                TempErrorsMessage.Validate("Record ID", CurrentErrorInfo.RecordId);
-                TempErrorsMessage.Insert();
-            end;
+        if ItemToSearch.FindFirst() then begin
 
-        ClearCollectedErrors();
-        Page.RunModal(page::"Error Messages", TempErrorsMessage);
+            CODEUNIT.Run(Codeunit::"Fake Library Collects", ItemToSearch);
+
+            if HasCollectedErrors then
+                foreach CurrentErrorInfo in system.GetCollectedErrors() do begin
+                    TempErrorMessage.ID := TempErrorMessage.ID + 1;
+                    TempErrorMessage.Message := CurrentErrorInfo.Message;
+                    TempErrorMessage.Validate("Record ID", CurrentErrorInfo.RecordId);
+                    TempErrorMessage.Insert();
+                end;
+
+            // Clearing the collected errors will ensure the built-in error dialog
+            // will not show, but instead show our own custom "Error Messages" page.
+            ClearCollectedErrors();
+
+            page.RunModal(page::"Error Messages", TempErrorMessage);
+
+
+        end;
     end;
+
+
+
 }

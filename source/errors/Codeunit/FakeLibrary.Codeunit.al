@@ -1,5 +1,6 @@
 namespace LibraryOne.LibraryOne;
 using Microsoft.Inventory.Item;
+using Microsoft.Purchases.Vendor;
 
 codeunit 50107 "Fake Library"
 {
@@ -42,6 +43,22 @@ codeunit 50107 "Fake Library"
     begin
         if ItemToUpdate.Get(ItemErrorInfo.RecordId) then begin
             ItemToUpdate.Validate("Description 2", StrSubstNo(DefaultDescriptionTxt, ItemToUpdate."No."));
+            ItemToUpdate.Modify(true);
+        end else
+            Error(ItemNotFoundErr, ItemToUpdate.RecordId)
+    end;
+
+    procedure SetDefaultVendorNo(ItemErrorInfo: ErrorInfo)
+    var
+        ItemToUpdate: Record Item;
+        Vendor: Record Vendor;
+        ItemNotFoundErr: Label 'Item %1 not found', Comment = '%1 = RecordId that not found';
+    begin
+
+        Vendor.FindFirst();
+
+        if ItemToUpdate.Get(ItemErrorInfo.RecordId) then begin
+            ItemToUpdate.Validate("Vendor No.", Vendor."No.");
             ItemToUpdate.Modify(true);
         end else
             Error(ItemNotFoundErr, ItemToUpdate.RecordId)
