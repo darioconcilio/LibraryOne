@@ -898,6 +898,11 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit Fake Library Collects - Method GenerateMultipleErrors - NamedType VendorNoEmptyErr</note>
         </trans-unit>
+        <trans-unit id="Codeunit 2281093101 - Method 4018220436 - NamedType 4035542179" size-unit="char" translate="yes" xml:space="preserve">
+          <source>%1 is not a decimal</source>
+          <note from="Developer" annotates="general" priority="2">%1 = the value that tryies to converto in decimal variable</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Fake Library Collects - Method GenerateMultipleErrors - NamedType IsNotDecimalErr</note>
+        </trans-unit>
         <trans-unit id="Report 3115327940 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Available Book List</source>
           <note from="Developer" annotates="general" priority="2"></note>

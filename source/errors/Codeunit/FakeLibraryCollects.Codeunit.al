@@ -16,11 +16,13 @@ codeunit 50108 "Fake Library Collects"
     var
         Description2EmptyErr: Label 'Description 2 is empty';
         VendorNoEmptyErr: Label 'Vendor No. is empty';
+        IsNotDecimalErr: Label '%1 is not a decimal', Comment = '%1 = the value that tryies to converto in decimal variable';
         UnitCostItemErrorInfo: ErrorInfo;
         Description2ItemErrorInfo: ErrorInfo;
+        ValueToConvertTxt: Label '2 euro', Locked = true;
     begin
-        if not Evaluate(rItem."Unit Cost", '2 euro') then begin
-            UnitCostItemErrorInfo := ErrorInfo.Create(GetLastErrorText(),
+        if not Evaluate(rItem."Unit Cost", ValueToConvertTxt) then begin
+            UnitCostItemErrorInfo := ErrorInfo.Create(StrSubstNo(IsNotDecimalErr, ValueToConvertTxt),
                                     true,
                                     rItem,
                                     rItem.FieldNo("Unit Cost"));
