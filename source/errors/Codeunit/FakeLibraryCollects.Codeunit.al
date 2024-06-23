@@ -29,12 +29,12 @@ codeunit 50108 "Fake Library Collects"
             Error(UnitCostItemErrorInfo);
         end;
 
-        if rItem."Description 2" = '' then begin
+        if rItem."Description" = '' then begin
 
             Description2ItemErrorInfo := ErrorInfo.Create(Description2EmptyErr,
                                     true,
                                     rItem,
-                                    rItem.FieldNo("Description 2"));
+                                    rItem.FieldNo("Description"));
 
 
             Description2ItemErrorInfo.AddAction(

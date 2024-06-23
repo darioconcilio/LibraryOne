@@ -97,7 +97,7 @@ pageextension 50101 "Item List Ext." extends "Item List"
                     end;
 
                     //Test con ErrorINfo
-                    if ErrorHandlingExamples.GetDescriptionItemWithTry() then
+                    if Not ErrorHandlingExamples.GetDescriptionItemWithTry() then
                         Error('Internal error: %1', GetLastErrorText())
                     else
                         Message('OK!');

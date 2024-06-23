@@ -16,10 +16,12 @@ codeunit 50104 "Error Handling Examples"
         ItemNoToSearchTxt: Label 'PIPPO', Locked = true;
     begin
         FakeLibrary.InitItemNo(ItemNoToSearchTxt);
-        if FakeLibrary.Run() then
+
+        if Not FakeLibrary.Run() then
             Error(SomethingWentWrongErr, GetLastErrorText())
         else
             Message(OperationSuccessfullyMsg, ItemNoToSearchTxt, FakeLibrary.GetItemDescription());
+
     end;
 
     /// <summary>
@@ -84,7 +86,7 @@ codeunit 50104 "Error Handling Examples"
             ItemSearchingErroInfo.AddAction(
                     'Set default description',
                     Codeunit::"Fake Library",
-                    'SetDefaultDescription'
+                    'SetDefaultDescription2'
                 );
 
             ItemSearchingErroInfo.PageNo := Page::"Item Card";
@@ -103,12 +105,12 @@ codeunit 50104 "Error Handling Examples"
     var
         SomethingWentWrongErr: Label 'Error!\%1\Please contact partner support.', Comment = '%1 = Original error message';
         ItemNoToSearchTxt: Label 'PIPPO', Locked = true;
+        ItemToSearch: Record Item;
     begin
-        FakeLibrary.InitItemNo(ItemNoToSearchTxt);
-        if FakeLibrary.Run() then
-            Error(SomethingWentWrongErr, GetLastErrorText())
-        else
-            Message(OperationSuccessfullyMsg, ItemNoToSearchTxt, FakeLibrary.GetItemDescription());
+
+        ItemToSearch.Get(ItemNoToSearchTxt);
+        Message(OperationSuccessfullyMsg, ItemNoToSearchTxt, ItemToSearch.Description);
+
     end;
 
 
