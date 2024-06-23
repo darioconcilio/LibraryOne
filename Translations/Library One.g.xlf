@@ -903,6 +903,51 @@
           <note from="Developer" annotates="general" priority="2">%1 = the value that tryies to converto in decimal variable</note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit Fake Library Collects - Method GenerateMultipleErrors - NamedType IsNotDecimalErr</note>
         </trans-unit>
+        <trans-unit id="Page 596671803 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Format Example List</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Format Example List - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 596671803 - Control 3301323505 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Date Value field.</source>
+          <note from="Developer" annotates="general" priority="2">%</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Format Example List - Control Date Value - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 596671803 - Control 4251776167 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Date/Time Value field.</source>
+          <note from="Developer" annotates="general" priority="2">%</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Format Example List - Control Date/Time Value - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 596671803 - Control 822268484 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Decimal Value field.</source>
+          <note from="Developer" annotates="general" priority="2">%</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Format Example List - Control Decimal Value - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 596671803 - Control 3461834954 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Description field.</source>
+          <note from="Developer" annotates="general" priority="2">%</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Format Example List - Control Description - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 596671803 - Control 717990034 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Format Text field.</source>
+          <note from="Developer" annotates="general" priority="2">%</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Format Example List - Control Format Text - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 596671803 - Control 2759603453 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Format Type field.</source>
+          <note from="Developer" annotates="general" priority="2">%</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Format Example List - Control Format Type - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 596671803 - Control 415504711 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Id field.</source>
+          <note from="Developer" annotates="general" priority="2">%</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Format Example List - Control Id - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 596671803 - Control 3845376148 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Int Value field.</source>
+          <note from="Developer" annotates="general" priority="2">%</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Format Example List - Control Int Value - Property ToolTip</note>
+        </trans-unit>
         <trans-unit id="Report 3115327940 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Available Book List</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -1027,6 +1072,26 @@
           <source>Operational Info</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">TableExtension Sales Header Ext. - Field Operational Info - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 4279680980 - EnumValue 3192175264 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Date</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Enum Format Types - EnumValue Date - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 4279680980 - EnumValue 2854863747 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>DateTime</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Enum Format Types - EnumValue DateTime - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 4279680980 - EnumValue 3350651205 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Decimal</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Enum Format Types - EnumValue Decimal - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 4279680980 - EnumValue 3883182266 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Integer</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Enum Format Types - EnumValue Integer - Property Caption</note>
         </trans-unit>
         <trans-unit id="ReportExtension 1247505494 - ReportLabel 1845189106" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Report 2043161662">
           <source>Operational Due Date</source>
@@ -2092,6 +2157,51 @@
           <source>Specifies the Excel row number.</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page Integer List - Control Number - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Table 388789349 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Format Example</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Format Example - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 388789349 - Field 3301323505 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Date Value</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Format Example - Field Date Value - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 388789349 - Field 4251776167 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Date/Time Value</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Format Example - Field Date/Time Value - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 388789349 - Field 822268484 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Decimal Value</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Format Example - Field Decimal Value - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 388789349 - Field 817180971 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Expression Format</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Format Example - Field Expression Format - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 388789349 - Field 717990034 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Format Text</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Format Example - Field Format Text - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 388789349 - Field 2759603453 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Format Type</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Format Example - Field Format Type - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 388789349 - Field 415504711 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Id</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Format Example - Field Id - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 388789349 - Field 3845376148 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Int Value</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Format Example - Field Int Value - Property Caption</note>
         </trans-unit>
         <trans-unit id="Query 3010303157 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Books Available</source>

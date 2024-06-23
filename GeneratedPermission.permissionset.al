@@ -34,7 +34,7 @@ permissionset 50100 GeneratedPermission
         codeunit BookJnlManagement = X,
         codeunit "Buffer Data Management" = X,
         codeunit "Demo Generator" = X,
-        //codeunit InstallManagement = X,
+    //codeunit InstallManagement = X,
         codeunit PostingLoanEntry = X,
         codeunit PostingPurchaseSalesEntry = X,
         codeunit PostingReturnEntry = X,
@@ -64,5 +64,14 @@ permissionset 50100 GeneratedPermission
         page "Mapping Lines" = X,
         page "Temporary Test Data Entry" = X,
         query "Books Available" = X,
-        xmlport "Book Export/Import" = X;
+        xmlport "Book Export/Import" = X,
+        tabledata "Format Example" = RIMD,
+        table "Format Example" = X,
+        report "Av. Book List (MultiLayout)" = X,
+        report "Available Book List" = X,
+        codeunit "Error Handling Examples" = X,
+        codeunit "Fake Library" = X,
+        codeunit "Fake Library Collects" = X,
+        codeunit MySub = X,
+        xmlport "Book Export/Import Flat" = X;
 }
