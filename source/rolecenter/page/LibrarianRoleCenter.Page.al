@@ -1,6 +1,7 @@
 namespace LibraryOne.RoleCenter;
 
 using LibraryOne.Books;
+using LibraryOne.LibraryOne;
 using LibraryOne.Posting;
 using LibraryOne.Setup;
 using LibraryOne.RoleCenter.Cue;
@@ -192,6 +193,14 @@ page 50111 "Librarian Role Center"
                 ToolTip = 'Creates new book reader';
             }
 
+            action(NewBookCustomRequest)
+            {
+                ApplicationArea = All;
+                Caption = 'Book Custom Request';
+
+                RunObject = page "Book Request Wizard";
+                ToolTip = 'Creates new book request configuration';
+            }
         }
     }
 }

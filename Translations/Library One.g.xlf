@@ -903,6 +903,246 @@
           <note from="Developer" annotates="general" priority="2">%1 = the value that tryies to converto in decimal variable</note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit Fake Library Collects - Method GenerateMultipleErrors - NamedType IsNotDecimalErr</note>
         </trans-unit>
+        <trans-unit id="Page 3701053198 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Book Request List</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Book Request List - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3701053198 - Control 3103787392 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>You have to choose book that book reader what requests for customizzation</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Book Request List - Control Book Code - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3701053198 - Control 3067118691 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>You have to choose book reader that what request a customization of book</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Book Request List - Control Book Reader Code - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3701053198 - Control 4141588837 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Confirmed field.</source>
+          <note from="Developer" annotates="general" priority="2">%</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Book Request List - Control Confirmed - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3701053198 - Control 3258235900 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>If you choose a cover, you have to choose a color of conver.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Book Request List - Control Cover Color - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3701053198 - Control 3357265471 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>You can specify which type of cover must have a book.\It's an optional request.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Book Request List - Control Cover Type - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3701053198 - Control 883711285 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Entry No. field.</source>
+          <note from="Developer" annotates="general" priority="2">%</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Book Request List - Control Entry No. - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3701053198 - Control 3221795907 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>If you choose a print service, you can specify a description that you want print on a book.\It will print on a first line.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Book Request List - Control Primary Custom Description - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3701053198 - Control 1003234496 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>You can specify additional description printed on book.\It's an optional request.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Book Request List - Control Print Custom Description - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3701053198 - Control 2704404533 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>You have to specify how much books book reader whants</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Book Request List - Control Quantity - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3701053198 - Control 1438758551 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Request Date field.</source>
+          <note from="Developer" annotates="general" priority="2">%</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Book Request List - Control Request Date - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3701053198 - Control 2004714617 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>If you choose a print service, you can specify a description that you want print on a book.\It will print on a second line.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Book Request List - Control Secondary Custom Description - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 468931829 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Book Request Wizard</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Book Request Wizard - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 468931829 - Method 1162407959 - NamedType 325146561" size-unit="char" translate="yes" xml:space="preserve">
+          <source>In this wizard covering service is mandatory</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Book Request Wizard - Method IsValidStep2_ChooseOptionalCover - NamedType CoverTypeMandatoryErr</note>
+        </trans-unit>
+        <trans-unit id="Page 468931829 - Method 731349548 - NamedType 2035619344" size-unit="char" translate="yes" xml:space="preserve">
+          <source>You chose Print custom description service,\but you don't specify primary description</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Book Request Wizard - Method IsValidStep3_ChooseOptionalPrint - NamedType PrimaryCustomDescriptionErr</note>
+        </trans-unit>
+        <trans-unit id="Page 468931829 - Control 3771653808 - Property 1968111052" size-unit="char" translate="yes" xml:space="preserve">
+          <source>The first thing to do is to choose the reader, the book, and the amount of books to request</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Book Request Wizard - Control Step1_ChooseItem - Property InstructionalText</note>
+        </trans-unit>
+        <trans-unit id="Page 468931829 - Control 3771653808 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Choose Item</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Book Request Wizard - Control Step1_ChooseItem - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 468931829 - Control 3835534554 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Welcome to the book customization wizard</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Book Request Wizard - Control Presentation - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 468931829 - Control 2451893770 - Property 1968111052" size-unit="char" translate="yes" xml:space="preserve">
+          <source>You can specify all information about book reader request to customize cover book and additional custom description. Remember, cover service is mandatory, if you want additional print custom description, you just select option, but it's not mandatory.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Book Request Wizard - Control PresentationInstruction - Property InstructionalText</note>
+        </trans-unit>
+        <trans-unit id="Page 468931829 - Control 2451893770 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source></source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Book Request Wizard - Control PresentationInstruction - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 468931829 - Control 515162744 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Request Information</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Book Request Wizard - Control PrimaryData - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 468931829 - Control 3103787392 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>You have to choose book that customer what requests for customizzation</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Book Request Wizard - Control Book Code - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 468931829 - Control 3103787392 - Property 1968111052" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Code or Title of Book</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Book Request Wizard - Control Book Code - Property InstructionalText</note>
+        </trans-unit>
+        <trans-unit id="Page 468931829 - Control 3103787392 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Book Code</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Book Request Wizard - Control Book Code - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 468931829 - Control 4190130733 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>You have to choose customer that what request a customization of book</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Book Request Wizard - Control Customer No. - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 468931829 - Control 4190130733 - Property 1968111052" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Code or Name of book reader</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Book Request Wizard - Control Customer No. - Property InstructionalText</note>
+        </trans-unit>
+        <trans-unit id="Page 468931829 - Control 4190130733 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Customer No.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Book Request Wizard - Control Customer No. - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 468931829 - Control 2704404533 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>You have to specify how much books customer whants</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Book Request Wizard - Control Quantity - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 468931829 - Control 2704404533 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Quantity</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Book Request Wizard - Control Quantity - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 468931829 - Control 866660291 - Property 1968111052" size-unit="char" translate="yes" xml:space="preserve">
+          <source></source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Book Request Wizard - Control Step2_ChooseOptionalCover - Property InstructionalText</note>
+        </trans-unit>
+        <trans-unit id="Page 468931829 - Control 866660291 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Optional Cover Configuration</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Book Request Wizard - Control Step2_ChooseOptionalCover - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 468931829 - Control 3258235900 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>If you choose a cover, you have to choose a color of Cover.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Book Request Wizard - Control Cover Color - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 468931829 - Control 3258235900 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Cover Color</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Book Request Wizard - Control Cover Color - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 468931829 - Control 3357265471 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>You can specify which type of cover must have a book.\It's an optional request.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Book Request Wizard - Control Cover Type - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 468931829 - Control 3357265471 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Cover Type</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Book Request Wizard - Control Cover Type - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 468931829 - Control 1103858368 - Property 1968111052" size-unit="char" translate="yes" xml:space="preserve">
+          <source></source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Book Request Wizard - Control Step3_ChooseOptionalPrint - Property InstructionalText</note>
+        </trans-unit>
+        <trans-unit id="Page 468931829 - Control 1103858368 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Optional Cover Print</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Book Request Wizard - Control Step3_ChooseOptionalPrint - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 468931829 - Control 3221795907 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>If you choose a print service, you can specify a description that you want print on a book.\It will print on a first line.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Book Request Wizard - Control Primary Custom Description - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 468931829 - Control 3221795907 - Property 1968111052" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Example: schoolboy's name</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Book Request Wizard - Control Primary Custom Description - Property InstructionalText</note>
+        </trans-unit>
+        <trans-unit id="Page 468931829 - Control 3221795907 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Primary Custom Description</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Book Request Wizard - Control Primary Custom Description - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 468931829 - Control 1003234496 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>You can specify additional description printed on book.\It's an optional request.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Book Request Wizard - Control Print Custom Description - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 468931829 - Control 1003234496 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Additional print description</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Book Request Wizard - Control Print Custom Description - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 468931829 - Control 2004714617 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>If you choose a print service, you can specify a description that you want print on a book.\It will print on a second line.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Book Request Wizard - Control Secondary Custom Description - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 468931829 - Control 2004714617 - Property 1968111052" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Example: schoolboy's class</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Book Request Wizard - Control Secondary Custom Description - Property InstructionalText</note>
+        </trans-unit>
+        <trans-unit id="Page 468931829 - Control 2004714617 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Secondary Custom Description</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Book Request Wizard - Control Secondary Custom Description - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 468931829 - Action 742034285 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Back</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Book Request Wizard - Action Back - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 468931829 - Action 2667510389 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Confirm</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Book Request Wizard - Action Finish - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 468931829 - Action 1235620153 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Next</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Book Request Wizard - Action Next - Property Caption</note>
+        </trans-unit>
         <trans-unit id="Page 596671803 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Format Example List</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -1072,6 +1312,86 @@
           <source>Operational Info</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">TableExtension Sales Header Ext. - Field Operational Info - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 2327294443 - EnumValue 2176757286 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Confirm</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Enum Configuration Steps - EnumValue Confirm - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 2327294443 - EnumValue 3251137095 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Cover</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Enum Configuration Steps - EnumValue Cover - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 2327294443 - EnumValue 1002420131 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Print</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Enum Configuration Steps - EnumValue Print - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 2327294443 - EnumValue 620325036 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Start</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Enum Configuration Steps - EnumValue Start - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 1411291453 - EnumValue 2095919705 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Black</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Enum Cover Colors - EnumValue Black - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 1411291453 - EnumValue 3487568930 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Blue</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Enum Cover Colors - EnumValue Blue - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 1411291453 - EnumValue 2899644277 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Green</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Enum Cover Colors - EnumValue Green - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 1411291453 - EnumValue 3750225965 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Red</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Enum Cover Colors - EnumValue Red - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 1411291453 - EnumValue 4022626687 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Violet</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Enum Cover Colors - EnumValue Violet - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 1411291453 - EnumValue 128824673 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>White</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Enum Cover Colors - EnumValue White - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 1411291453 - EnumValue 2012424656 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Yellow</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Enum Cover Colors - EnumValue Yellow - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 2182209770 - EnumValue 1329401311 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Colorful Opaque</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Enum Cover Types - EnumValue Colorful Opaque - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 2182209770 - EnumValue 3371220206 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>None</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Enum Cover Types - EnumValue None - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 2182209770 - EnumValue 2570189449 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Opaque</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Enum Cover Types - EnumValue Opaque - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 2182209770 - EnumValue 1533297067 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Patterned</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Enum Cover Types - EnumValue Patterned - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 2182209770 - EnumValue 3089365754 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Transparent</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Enum Cover Types - EnumValue Transparent - Property Caption</note>
         </trans-unit>
         <trans-unit id="Enum 4279680980 - EnumValue 3192175264 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Date</source>
@@ -1913,6 +2233,16 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page Librarian Role Center - Action NewBook - Property Caption</note>
         </trans-unit>
+        <trans-unit id="Page 651819257 - Action 205593769 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Creates new book request configuration</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Librarian Role Center - Action NewBookCustomRequest - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 651819257 - Action 205593769 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Book Custom Request</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Librarian Role Center - Action NewBookCustomRequest - Property Caption</note>
+        </trans-unit>
         <trans-unit id="Page 651819257 - Action 2556455644 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
           <source>Creates new book reader</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -2157,6 +2487,66 @@
           <source>Specifies the Excel row number.</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page Integer List - Control Number - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Table 3133742669 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Book Custom Request</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Book Custom Request - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3133742669 - Field 3103787392 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Book Code</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Book Custom Request - Field Book Code - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3133742669 - Field 3067118691 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Book Reader Code</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Book Custom Request - Field Book Reader Code - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3133742669 - Field 4141588837 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Confirmed</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Book Custom Request - Field Confirmed - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3133742669 - Field 3258235900 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Cover Color</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Book Custom Request - Field Cover Color - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3133742669 - Field 3357265471 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Cover Type</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Book Custom Request - Field Cover Type - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3133742669 - Field 883711285 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Entry No.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Book Custom Request - Field Entry No. - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3133742669 - Field 3221795907 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Primary Custom Description</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Book Custom Request - Field Primary Custom Description - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3133742669 - Field 1003234496 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Print Custom Description</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Book Custom Request - Field Print Custom Description - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3133742669 - Field 2704404533 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Quantity</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Book Custom Request - Field Quantity - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3133742669 - Field 1438758551 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Request Date</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Book Custom Request - Field Request Date - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3133742669 - Field 2004714617 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Secondary Custom Description</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Book Custom Request - Field Secondary Custom Description - Property Caption</note>
         </trans-unit>
         <trans-unit id="Table 388789349 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Format Example</source>
