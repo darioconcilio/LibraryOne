@@ -1,5 +1,8 @@
 namespace LibraryOne.LibraryOne;
 
+using System.Utilities;
+using System.Environment;
+
 page 50126 "Book Request Wizard"
 {
     ApplicationArea = All;
@@ -124,6 +127,102 @@ page 50126 "Book Request Wizard"
                     ToolTip = 'If you choose a print service, you can specify a description that you want print on a book.\It will print on a second line.';
                 }
             }
+
+            group(Step4_Finish)
+            {
+                Caption = 'Summary of choices';
+                InstructionalText = '';
+                Visible = Step4_FinishVisible;
+
+                group(General)
+                {
+                    Caption = 'Summary';
+
+                    field(BookReaderCode; Rec."Book Reader Code")
+                    {
+                        Editable = false;
+                        ToolTip = 'Book reader code that wants custom book';
+                    }
+
+                    field(BookCode; Rec."Book Code")
+                    {
+                        Editable = false;
+                        ToolTip = 'Book code that will be custom';
+                    }
+
+                    field(QuantityField; Rec.Quantity)
+                    {
+                        Editable = false;
+                        ToolTip = 'Quantiy books';
+                    }
+                }
+
+                group(Covering)
+                {
+                    Caption = 'Covering';
+                    Visible = SelectedCover;
+
+                    field(CoverType; Rec."Cover Type")
+                    {
+                        Editable = false;
+                        ToolTip = 'Cover Type';
+                        Caption = 'Cover Type';
+                    }
+
+                    field(CoverColor; Rec."Cover Color")
+                    {
+                        Editable = false;
+                        ToolTip = 'Color for cover';
+                        Caption = 'Color for cover';
+                    }
+                }
+
+                group(CustomPrint)
+                {
+                    Caption = 'Custom Printing';
+                    Visible = SelectedOptionalPrint;
+
+                    field(PrimaryCustomDescription; Rec."Primary Custom Description")
+                    {
+                        Editable = false;
+                        ToolTip = 'Primary description that will print on cover book';
+                    }
+
+                    field(SecondaryCustomDescription; Rec."Secondary Custom Description")
+                    {
+                        Editable = false;
+                        ToolTip = 'Secondary description that will print on cover book';
+                    }
+                }
+            }
+
+            group(StandardBanner)
+            {
+                Caption = '';
+                Editable = false;
+                Visible = not Step4_FinishVisible and TopBannerVisible;
+
+                field(MediaResourcesStandard; MediaResourcesStandard."Media Reference")
+                {
+                    ApplicationArea = All;
+                    Editable = false;
+                    ShowCaption = false;
+                }
+            }
+
+            group(FinishedBanner)
+            {
+                Caption = '';
+                Editable = false;
+                Visible = Step4_FinishVisible and TopBannerVisible;
+
+                field(MediaResourcesDone; MediaResourcesDone."Media Reference")
+                {
+                    ApplicationArea = All;
+                    Editable = false;
+                    ShowCaption = false;
+                }
+            }
         }
     }
 
@@ -178,6 +277,7 @@ page 50126 "Book Request Wizard"
     trigger OnInit()
     begin
         ProcessStepsStatus();
+        LoadTopBanners();
     end;
 
     trigger OnOpenPage()
@@ -188,6 +288,13 @@ page 50126 "Book Request Wizard"
     end;
 
     var
+        //Banner
+        MediaRepositoryDone: Record "Media Repository";
+        MediaRepositoryStandard: Record "Media Repository";
+        MediaResourcesDone: Record "Media Resources";
+        MediaResourcesStandard: Record "Media Resources";
+
+
         Step1_ChooseItemVisible: Boolean;
 
         Step2_ChooseCoverVisible: Boolean;
@@ -195,6 +302,10 @@ page 50126 "Book Request Wizard"
 
         Step3_ChooseOptionalPrintVisible: Boolean;
         SelectedOptionalPrint: Boolean;
+
+        Step4_FinishVisible: Boolean;
+
+        TopBannerVisible: Boolean;
 
     local procedure ResetControls()
     begin
@@ -204,6 +315,17 @@ page 50126 "Book Request Wizard"
         Step1_ChooseItemVisible := false;
         Step2_ChooseCoverVisible := false;
         Step3_ChooseOptionalPrintVisible := false;
+        Step4_FinishVisible := false;
+    end;
+
+    local procedure LoadTopBanners()
+    begin
+        if MediaRepositoryStandard.Get('AssistedSetup-NoText-400px.png', Format(CurrentClientType())) and
+            MediaRepositoryDone.Get('AssistedSetupDone-NoText-400px.png', Format(CurrentClientType()))
+        then
+            if MediaResourcesStandard.Get(MediaRepositoryStandard."Media Resources Ref") and
+                MediaResourcesDone.Get(MediaRepositoryDone."Media Resources Ref") then
+                TopBannerVisible := MediaResourcesDone."Media Reference".HasValue();
     end;
 
     local procedure ShowStep1_ChooseItem()
@@ -253,8 +375,8 @@ page 50126 "Book Request Wizard"
 
         Step3_ChooseOptionalPrintVisible := true;
         BackEnable := true;
-        NextEnable := false;
-        FinishEnable := true;
+        NextEnable := true;
+        FinishEnable := false;
     end;
 
     [TryFunction]
@@ -268,6 +390,19 @@ page 50126 "Book Request Wizard"
 
     end;
 
+    local procedure ShowStep4_Finish()
+    begin
+
+        if not IsValidStep3_ChooseOptionalPrint() then
+            Error(GetLastErrorText());
+
+        Step4_FinishVisible := true;
+        BackEnable := true;
+        NextEnable := false;
+        FinishEnable := true;
+
+    end;
+
     local procedure ProcessStepsStatus()
     begin
         ResetControls();
@@ -277,7 +412,9 @@ page 50126 "Book Request Wizard"
             "Configuration Steps"::Cover:
                 ShowStep2_ChooseOptionalCover();
             "Configuration Steps"::Print:
-                "ShowStep3_ChooseOptionalPrint"();
+                ShowStep3_ChooseOptionalPrint();
+            "Configuration Steps"::Confirm:
+                ShowStep4_Finish();
         end;
     end;
 
@@ -318,9 +455,6 @@ page 50126 "Book Request Wizard"
     /// </summary>
     local procedure Finished()
     begin
-        if not IsValidStep3_ChooseOptionalPrint() then
-            Error(GetLastErrorText());
-
         GenerateItemRequest();
         CurrPage.Close();
     end;
